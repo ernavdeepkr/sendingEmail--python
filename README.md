@@ -1,12 +1,15 @@
-#Sending Email Using Python
+# Sending Email Using Python
 This program can sends email to multiple user. You need to input the email id of the users.
 
-###Run:
+### Run:
+```
 $ python mail.py
+```
 
-###Output:
+### Output:
 Sends email to user or multiple users.
 
+```python
 $ python mail.py 
 import smtplib 
 
@@ -21,3 +24,4 @@ import smtplib
  
 #s.quit
 ###is used to exit
+```
